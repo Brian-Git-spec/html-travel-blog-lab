@@ -1,0 +1,68 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #9d9696;
+}
+
+/* Header + Hero Image */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #9d9696;
+}
+
+header img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Blog Text */
+section p {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    padding: 0 15px;
+    color: #444;
+}
+
+/* Horizontal Image Gallery */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;     /* makes items horizontal */
+    gap: 20px;               /* space between images */
+    justify-content: center; /* centers the gallery */
+}
+
+ul li img {
+    display: block;
+    border-radius: 6px;
+}
+
+
+
+/* Call to Action */
+a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #005fa3;
+}
